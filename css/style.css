@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-black{background: black !important;}
+header  .navbar{
+    background: black;
+}
+.navbar  .navbar-brand{color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.navbar .navbar-brand:hover{
+    color: purple;
+}
+.navbar-nav .nav-link{
+    color: white !important;
+    text-transform: uppercase;
+}
+.navbar-nav .nav-link:hover{
+    color:purple ;
+}
+.active{
+    color: white;
+    background: purple ;
+    border-radius: 18px;
+}
+.active:hover{
+    color: white !important;
+}
+@media(max-width:567px){
+    .active{
+        background: none;
+    }
+}

@@ -35,3 +35,9 @@ header  .navbar{
         background: none;
     }
 }
+
+/* services */
+.shadow p{
+    font-size:18px ;
+    font-weight:900 ;
+}

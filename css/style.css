@@ -24,11 +24,12 @@ header  .navbar{
 }
 .active{
     color: white;
-    background: purple ;
+    background: black ;
     border-radius: 18px;
 }
 .active:hover{
     color: white !important;
+    background: purple;
 }
 @media(max-width:567px){
     .active{
